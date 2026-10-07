@@ -10,7 +10,7 @@ data through a Bronze, Silver, and Gold architecture.
 
 ## Pipeline Architecture
 
-![Fabric pipeline orchestration](../docs/screenshots/fabric-pipeline-overview.png)
+![Fabric pipeline orchestration](../docs/screenshots/pipeline_2.png)
 
 ## Pipeline Flow
 
