@@ -38,3 +38,11 @@ jobs:
 
       - name: Terraform Validate
         run: terraform validate
+
+      - name: Terraform Plan
+        env:
+          FABRIC_TENANT_ID: ${{ secrets.FABRIC_TENANT_ID }}
+          FABRIC_CLIENT_ID: ${{ secrets.FABRIC_CLIENT_ID }}
+          FABRIC_CLIENT_SECRET: ${{ secrets.FABRIC_CLIENT_SECRET }}
+        run: terraform plan -input=false
+
