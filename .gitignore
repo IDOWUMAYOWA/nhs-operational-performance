@@ -1,0 +1,22 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files may contain secrets
+*.tfvars
+!*.tfvars.example
+
+# Terraform plans
+*.tfplan
+tfplan
+
+# Environment / credentials
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
